@@ -5,10 +5,23 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>Media\SimpleCalc.ico</ApplicationIcon>
+    <PackageIcon>SimpleCalc.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Media\SimpleCalc.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.ComponentModel.Composition" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Media\SimpleCalc.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
